@@ -3,6 +3,9 @@ package com.napptilustest.sergiogavilansolution.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+/**
+ * Product DTO to store its details
+ */
 @Data
 public class ProductDTO {
     @JsonProperty(value = "id", required = true)
