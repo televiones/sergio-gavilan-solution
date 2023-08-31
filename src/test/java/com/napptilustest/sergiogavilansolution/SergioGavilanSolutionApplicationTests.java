@@ -48,7 +48,7 @@ public class SergioGavilanSolutionApplicationTests {
      * Tests that for id=4 we get only 2 recommendations
      */
     @Test
-    public void testGetProductSimilarWithEmptyResult() {
+    public void testGetProductSimilarWithOnlyTwo() {
         Integer productId = 4;
 
         webTestClient.get()
